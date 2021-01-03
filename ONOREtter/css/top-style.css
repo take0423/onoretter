@@ -1,0 +1,238 @@
+body, h1, h2, p{
+    padding: 0;
+    margin: 0;
+}
+.all-wrap{
+    padding: 50px;
+    width: 900px;
+    margin: 0 auto;
+}
+.title-wrap{
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+h1{
+    background-color: #fff;
+    color: rgb(160, 160, 160);
+}
+p{
+    white-space: pre-wrap;
+}
+.title-wrap p{
+    color: rgb(160, 160, 160);
+}
+.nikki-wrap{
+    width: 100%;
+}
+.logout{
+    text-align: right;
+}
+.logout a{
+    font-size: 12px;
+    text-decoration: none;
+}
+/* ―――――――――――――――――――――――――――フォーム共通 */
+.form-wrap{
+    position: fixed;
+    top: 130px;
+    width: 400px;
+    background-color: #fff;
+}
+.form-wrap .text-m{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.form-wrap input, textarea{
+    border-radius: 3px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 5px;
+}
+textarea{
+    max-width: 90%;
+    min-width: 90%;
+}
+.toukou-wrap, .hensyu-wrap, .sakujo-wrap{
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+.hensyu-wrap, .sakujo-wrap{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ED-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* ―――――――――――――――――――――――――――投稿フォーム */
+.toukou-wrap{
+    background-color: #fff;
+    border: 1.5px solid #de0053;
+}
+.toukou-wrap .text-m{
+    color: #de0053;
+}
+.post-form input , textarea{
+    border: 1.5px solid #de0053;
+}
+.post-form textarea{
+    border: 1.5px solid #de0053;
+    width: 90%;
+}
+/* ――――――――――――――feel */
+.feel-check{
+    margin-bottom: 5px;
+}
+.feel-check label{
+    font-size: 12px;
+}
+.feel-check .feel{
+    display: inline;
+    width: 10%;
+}
+/* ―――――――――――――――――――――――――――編集フォーム */
+.hensyu-wrap{
+    background-color: #fff;
+    border: 1.5px solid #afd147;
+}
+.hensyu-wrap .text-m{
+    color: #afd147;
+}
+.edit-form input , textarea{
+    border: 1.5px solid #afd147;
+}
+/* ―――――――――――――――――――――――――――削除フォーム */
+.sakujo-wrap{
+    background-color: #fff;
+    border: 1.5px solid #009aa3;
+    margin-bottom: 0;
+}
+.sakujo-wrap .text-m{
+    color: #009aa3;
+}
+.delete-form input , textarea{
+    border: 1.5px solid #009aa3;
+}
+/* ―――――――――――――――――――――――――――ボタン */
+.postBtn{
+    background-color: #de0053;
+    color: #fff;
+}
+.editBtn{
+    background-color: #afd147;
+    color: #fff;
+}
+.delBtn{
+    background-color: #009aa3;
+    color: #fff;
+}
+.submitBtn{
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+}
+.submitBtn:active{
+    position: relative;
+    top: 5px;
+}
+/* ――――――――――――――――――――――――――――表示 */
+.list-wrap{
+    position: absolute;
+    top: 130px;
+    width: 490px;
+    margin-left: 410px;
+    background-color: #fff;
+}
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* ――――――――――――――――――――――――――――完了メッセージ */
+.comp-msg{
+    font-size: 20px;
+    font-weight: bold;
+}
+.post_comp{
+    color: #de0053;
+    text-align: center;
+}
+.edit_comp{
+    color: #afd147;
+    text-align: center;
+}
+.del_comp{
+    color: #009aa3;
+    text-align: center;
+}
+/* ・・・・・・・・・・・・・・・・・・・リスト */
+.lists{
+    padding: 10px;
+}
+.list{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.list:nth-of-type(even){
+    background-color: #f2f2f2;
+}
+.list:nth-of-type(odd){
+    background-color: #cdcdcd;
+}
+.list-title,.feel-mark{
+    margin-right: 10px;
+    height: 30px;
+}
+.listNo-ciecle{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    line-height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+.list-no{
+    text-align: center;
+    font-size: 20px;
+}
+.feel-mark{
+    float: left;
+}
+.list-title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.list-comment{
+    margin-top: 10px;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+.list-img{
+    width: 100%;
+}
+.list-img img{
+    margin: 0 auto;
+    width: 100%;
+}
+.list-date{
+    color: rgb(130, 130, 130);
+    text-align: right;
+}

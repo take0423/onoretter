@@ -1,0 +1,160 @@
+body, h1, p{
+    padding: 0;
+    margin: 0;
+}
+.all-wrap{
+    width: 900px;
+    margin: 0 auto;
+}
+.title-wrap{
+    width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    text-align: center;
+}
+h1{
+    background-color: #fff;
+    color: rgb(160, 160, 160);
+}
+p{
+    white-space: pre-wrap;
+}
+.form-wrap{
+    width: 60%;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.form-wrap form {
+    text-align: center;
+    width: 100%;
+}
+.form-login{
+    background-color: #fff;
+    border: 1.5px solid #de0053;
+}
+.form-signin{
+    background-color: #fff;
+    border: 1.5px solid #afd147;
+}
+.form-del{
+    background-color: #fff;
+    border: 1.5px solid #009aa3;
+}
+.comp-logout{
+    text-align: center;
+    background-color: #fff;
+    border: 1.5px solid rgb(160, 160, 160);
+}
+form span{
+    width: 20%;
+}
+form input{
+    border-radius: 3px;
+    width: 35%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+/* ――――――――――――――――――――――――――――ログイン画面 */
+.form-login .text-m{
+    font-weight: bold;
+    font-size: 18px;
+    color: #de0053;
+    margin-bottom: 10px;
+}
+.form-login input{
+    border: 1.5px solid #de0053;
+}
+.form-login span{
+    display: inline-block;
+    color: #de0053;
+}
+/* ――――――――――――――――――――――――――――新規登録画面 */
+.form-signin .text-m{
+    font-weight: bold;
+    font-size: 18px;
+    color: #afd147;
+    margin-bottom: 10px;
+}
+.form-signin input{
+    border: 1.5px solid #afd147;
+}
+.form-signin span{
+    display: inline-block;
+    color: #afd147;
+}
+/* ――――――――――――――――――――――――――――アカウント削除画面 */
+.form-del .text-m{
+    font-weight: bold;
+    font-size: 18px;
+    color: #009aa3;
+    margin-bottom: 10px;
+}
+.form-del input{
+    border: 1.5px solid #009aa3;
+}
+.form-del span{
+    display: inline-block;
+    color: #009aa3;
+}
+/* ――――――――――――――――――――――――――――ログアウト完了画面 */
+.comp-logout .text-m{
+    font-weight: bold;
+    font-size: 18px;
+    color:  rgb(160, 160, 160);
+    margin-bottom: 10px;
+}
+/* ――――――――――――――――――――――――――――ボタン */
+.loginBtn{
+    background-color: #de0053;
+    color: #fff;
+}
+.signinBtn{
+    background-color: #afd147;
+    color: #fff;
+}
+.delBtn{
+    background-color: #009aa3;
+    color: #fff;
+}
+.submitBtn{
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.submitBtn:active{
+    position: relative;
+    top: 5px;
+}
+/* ――――――――――――――新規登録・アカウント削除ボタン */
+.otherBtn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.otherBtn p{
+    display: block;
+}
+.otherBtn p a:hover{
+    color: #de0053;
+}
+.otherBtn .otherBtn-s a:hover{
+    color: #afd147;
+}
+.otherBtn .otherBtn-d a:hover{
+    color: #009aa3;
+}
+a{
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+}
+.otherBtn-logout{
+    margin: 0 auto;
+}
+.otherBtn-logout a:hover{
+    color: #de0053;
+}
